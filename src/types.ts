@@ -1,0 +1,6 @@
+export type Link = {
+  title: string;
+  href: string;
+  thumbnail: string;
+  target?: string;
+};
