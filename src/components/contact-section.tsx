@@ -20,7 +20,7 @@ export function ContactSection() {
   };
 
   const copyEmail = () => {
-    navigator.clipboard.writeText("tripathiramkrishna16@gmail.com");
+    navigator.clipboard.writeText("pandeyrishi275@gmail.com");
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -51,20 +51,20 @@ export function ContactSection() {
                 {copied ? <CheckCircle2 className="w-5 h-5 text-green-400" /> : <Copy className="w-5 h-5" />}
               </div>
               <span className="text-neutral-300 font-medium tracking-wide">
-                tripathiramkrishna16@gmail.com
+                pandeyrishi275@gmail.com
               </span>
             </button>
           </div>
         </div>
 
         <div className="flex flex-wrap items-center gap-4 mt-4">
-          <a href="https://github.com/Ramkrishna45" target="_blank" rel="noreferrer" className="flex items-center justify-center w-12 h-12 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 hover:-translate-y-1 transition-all text-neutral-400 hover:text-white">
+          <a href="https://github.com/rishipandey1703" target="_blank" rel="noreferrer" className="flex items-center justify-center w-12 h-12 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 hover:-translate-y-1 transition-all text-neutral-400 hover:text-white">
             <FaGithub className="w-5 h-5" />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="flex items-center justify-center w-12 h-12 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 hover:-translate-y-1 transition-all text-neutral-400 hover:text-[#0a66c2]">
+          <a href="https://www.linkedin.com/in/rishi-pandey-stu/" target="_blank" rel="noreferrer" className="flex items-center justify-center w-12 h-12 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 hover:-translate-y-1 transition-all text-neutral-400 hover:text-[#0a66c2]">
             <FaLinkedin className="w-5 h-5" />
           </a>
-          <a href="https://leetcode.com/u/jarvis45/" target="_blank" rel="noreferrer" className="flex items-center justify-center w-12 h-12 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 hover:-translate-y-1 transition-all text-neutral-400 hover:text-[#ffa116]">
+          <a href="https://leetcode.com/u/rishi_pandey17/" target="_blank" rel="noreferrer" className="flex items-center justify-center w-12 h-12 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 hover:-translate-y-1 transition-all text-neutral-400 hover:text-[#ffa116]">
             <Code className="w-5 h-5" />
           </a>
           <a href="/resume.pdf" target="_blank" rel="noreferrer" className="flex items-center justify-center w-12 h-12 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 hover:-translate-y-1 transition-all text-neutral-400 hover:text-green-400">

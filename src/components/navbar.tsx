@@ -72,7 +72,7 @@ export function Navbar() {
           <div className="flex h-8 w-8 items-center justify-center rounded-full bg-white text-black transition-transform group-hover:scale-105">
             <span className="font-bold text-sm">RT</span>
           </div>
-          <span className="font-medium tracking-tight hidden sm:block">Ram Krishna</span>
+          <span className="font-medium tracking-tight hidden sm:block">Rishi Pandey</span>
         </Link>
 
         {/* Desktop Navigation */}

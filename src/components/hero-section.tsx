@@ -56,7 +56,7 @@ export function HeroSection() {
         >
           Hi, I&apos;m <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-neutral-500">
-            Ram Krishna
+            Rishi Pandey
           </span>
         </motion.h1>
 
@@ -86,7 +86,7 @@ export function HeroSection() {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="text-neutral-400 max-w-lg mb-8 leading-relaxed"
         >
-          I am a passionate software engineer currently pursuing my Integrated B.Tech + M.Tech in Information Technology at IIIT Gwalior. I love building scalable systems, AI integrations, and beautifully crafted products.
+          I am a passionate AI & Full-Stack Developer currently pursuing a B.Tech in Computer Science & Engineering (Artificial Intelligence & Machine Learning) at ABES Engineering College, Ghaziabad. I enjoy developing intelligent applications, modern web platforms, and scalable software solutions that address real-world challenges. Driven by curiosity and continuous learning, I aim to build impactful technology with clean design, strong engineering principles, and practical innovation.
         </motion.p>
 
         <motion.div 
@@ -116,13 +116,13 @@ export function HeroSection() {
           transition={{ duration: 0.5, delay: 0.5 }}
           className="flex items-center gap-4 mt-8"
         >
-          <a href="https://github.com/Ramkrishna45" target="_blank" rel="noreferrer" className="p-2 text-neutral-400 hover:text-white bg-white/5 rounded-full border border-white/10 hover:bg-white/10 transition-colors">
+          <a href="https://github.com/rishipandey1703" target="_blank" rel="noreferrer" className="p-2 text-neutral-400 hover:text-white bg-white/5 rounded-full border border-white/10 hover:bg-white/10 transition-colors">
             <FaGithub className="w-5 h-5" />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="p-2 text-neutral-400 hover:text-white bg-white/5 rounded-full border border-white/10 hover:bg-white/10 transition-colors">
+          <a href="https://www.linkedin.com/in/rishi-pandey-stu/" target="_blank" rel="noreferrer" className="p-2 text-neutral-400 hover:text-white bg-white/5 rounded-full border border-white/10 hover:bg-white/10 transition-colors">
             <FaLinkedin className="w-5 h-5" />
           </a>
-          <a href="mailto:tripathiramkrishna16@gmail.com" className="p-2 text-neutral-400 hover:text-white bg-white/5 rounded-full border border-white/10 hover:bg-white/10 transition-colors">
+          <a href="mailto:pandeyrishi275@gmail.com" className="p-2 text-neutral-400 hover:text-white bg-white/5 rounded-full border border-white/10 hover:bg-white/10 transition-colors">
             <Mail className="w-5 h-5" />
           </a>
         </motion.div>

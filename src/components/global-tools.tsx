@@ -11,8 +11,8 @@ const commands = [
   { id: "skills", title: "Skills", icon: <Command className="w-4 h-4" />, action: () => document.getElementById("skills")?.scrollIntoView({ behavior: "smooth" }) },
   { id: "experience", title: "Experience", icon: <Briefcase className="w-4 h-4" />, action: () => document.getElementById("experience")?.scrollIntoView({ behavior: "smooth" }) },
   { id: "resume", title: "Download Resume", icon: <FileText className="w-4 h-4" />, action: () => window.open("/resume.pdf", "_blank") },
-  { id: "github", title: "GitHub Profile", icon: <FaGithub className="w-4 h-4" />, action: () => window.open("https://github.com/Ramkrishna45", "_blank") },
-  { id: "linkedin", title: "LinkedIn Profile", icon: <FaLinkedin className="w-4 h-4" />, action: () => window.open("https://linkedin.com", "_blank") },
+  { id: "github", title: "GitHub Profile", icon: <FaGithub className="w-4 h-4" />, action: () => window.open("https://github.com/rishipandey1703", "_blank") },
+  { id: "linkedin", title: "LinkedIn Profile", icon: <FaLinkedin className="w-4 h-4" />, action: () => window.open("https://www.linkedin.com/in/rishi-pandey-stu/", "_blank") },
   { id: "leetcode", title: "LeetCode Stats", icon: <Code className="w-4 h-4" />, action: () => document.getElementById("coding")?.scrollIntoView({ behavior: "smooth" }) },
   { id: "contact", title: "Contact Me", icon: <Mail className="w-4 h-4" />, action: () => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" }) },
 ];
@@ -84,11 +84,11 @@ export function GlobalTools() {
         newHistory.push({ text: "Opening Resume...", type: "out" });
         break;
       case "github":
-        window.open("https://github.com/Ramkrishna45", "_blank");
+        window.open("https://github.com/rishipandey1703", "_blank");
         newHistory.push({ text: "Opening GitHub...", type: "out" });
         break;
       case "leetcode":
-        window.open("https://leetcode.com/u/jarvis45/", "_blank");
+        window.open("https://leetcode.com/u/rishi_pandey17/", "_blank");
         newHistory.push({ text: "Opening LeetCode...", type: "out" });
         break;
       case "contact":

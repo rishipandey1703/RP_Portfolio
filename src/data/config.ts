@@ -30,7 +30,7 @@ const config = {
 
   email: "pandeyrishi275@gmail.com",
 
-  site: "https://YOUR_DOMAIN.vercel.app",
+  site: "https://rp-portfolio-chi.vercel.app/",
 
   githubUsername: "rishipandey1703",
 
