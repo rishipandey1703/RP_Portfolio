@@ -52,7 +52,7 @@ const config = {
     github: "https://github.com/rishipandey1703",
   },
 
-  resumeLink: "https://drive.google.com/file/d/1WKgsoMQDF4gviHJeBa80pJdSW7GMvc0e/view?usp=drivesdk",
+  resumeLink: "https://drive.google.com/file/d/1HzUg1sNx9dnocxaF_6CoHVRVOe359BKB/view?usp=drivesdk",
 };
 
 export { config };
